@@ -1,6 +1,6 @@
 #focus{
     padding-top: 3em;
-    padding-left: 5em;
+    padding-left: 6em;
 }
 
 #focus h3{
@@ -42,12 +42,20 @@
 }
 
 #header{
-    padding-left: 1.5em;
-    padding-right: 3em;
+    padding-left: 0em;
+    padding-right: 0em;
 }
 
 .img-fluid{
     max-width: 100%;
     height: auto;
 }
+
+#nine_pic{
+    padding-top: 3em;
+}
+
+/*{
+    border: solid 1px red;
+}*/
 
