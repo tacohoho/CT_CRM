@@ -1,3 +1,23 @@
-.field {
-    max-width: 100%;
+.photo {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+.title {
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+span h1 {
+    font-size: 400%;
+}
+
+.input-field {
+    border-style: solid;
+    border-radius: 100px;
+    padding: 3%;
+    border-color: gray;
+    border-width: thin;
 }
