@@ -1,21 +1,22 @@
 #username{
     border-radius: 50px;
     border: 1px solid rgba(160, 93, 93, 0.288);
-    margin-top: 50px;
+    margin-top: 80px;
     height: 40px;
+
 }
 
 #email{
     border: 1px solid rgba(160, 93, 93, 0.288);
     border-radius: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     height: 40px;
 }
 
 #password{
     border: 1px solid rgba(160, 93, 93, 0.288);
     border-radius: 50px; 
-    margin-top: 50px;
+    margin-top: 30px;
     height: 40px;
 }
 
@@ -49,3 +50,72 @@ h2{
     font-size: 300%;
     
 }
+
+.flex{
+    display: flex;
+    justify-content: center;
+    grid-auto-columns: 2px;
+    padding-top: 0px;
+    
+
+
+}
+#facebook{
+    border: 1px solid ;
+    border-radius: 150px;
+    border-color: rgba(160, 93, 93, 0.288);
+    scale: 20%;
+    padding: 9px;
+    
+}
+#twitter{
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: rgba(160, 93, 93, 0.288);
+    scale: 20%;
+    padding: 9px;
+}
+
+#google{
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: rgba(160, 93, 93, 0.288);
+    scale: 25%;
+    padding: 9px;
+}
+
+#linkedin{
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: rgba(160, 93, 93, 0.288);
+    scale: 25%; 
+    padding: 9px;
+}
+
+body{
+   background-image: url("../images/Sign-In-background.png"); 
+   background-position: absolute;
+   background-size: 102%;
+   
+}
+
+.account{
+    position: absolute;
+    font-size: 60px;
+    top: 50px;
+    left: 10px;
+    color: white;
+}
+#button{
+    background-color: rgb(3, 20, 254);
+    border-color: white;
+    color: white;
+    font-size: 40%;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 180px;
+    position: absolute;
+    
+
+
