@@ -1,7 +1,7 @@
 .photo {
     position: absolute;
     left: 40%;
-    top: 10%;
+    top: 15%;
 }
 
 .title {
@@ -17,7 +17,61 @@ span h1 {
 .input-field {
     border-style: solid;
     border-radius: 100px;
-    padding: 3%;
-    border-color: gray;
-    border-width: thin;
+    padding: 110% 2000% 110% 200%;
+    border-color: rgba(160, 93, 93, 0.288);
+    border-width: 2px;
+    margin: 30px auto;
+}
+
+.input-fields {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.input-img {
+    max-width: 20px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    width: 27.5%
+}
+
+.signUp-button {
+    background-color: rgb(0, 81, 255);
+    color: white;
+    border-radius: 100px;
+    border-style: none;
+    padding: 10px;
+    width: 250px;
+    font-size: 150%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icon {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(160, 93, 93, 0.288);
+    padding-left: 3%;
 }
