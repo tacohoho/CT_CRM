@@ -1,0 +1,12 @@
+h1 {
+    font-size: 350%;
+}
+
+h6 {
+    color: gray;
+}
+
+.container-focus {
+    padding: 100px;
+    width: 700px;
+}
