@@ -112,6 +112,7 @@ body{
    background-image: url("../images/Sign-In-background.png"); 
    background-position: absolute;
    background-size: 102%;
+   background-repeat: no-repeat;
 }
 
 .account{
