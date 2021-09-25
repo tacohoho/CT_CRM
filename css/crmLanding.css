@@ -1,17 +1,159 @@
-h1 {
-    font-size: 350%;
+/*{
+    border: solid 1px red;
+}*/
+
+#focus{
+    padding-top: 3em;
+    padding-left: 3em;
 }
 
-h6 {
-    color: gray;
+#focus h3{
+    font-size: 1.2em;
+    color: grey;
+    padding-bottom: 1em;
 }
 
-.container-focus {
+#noembelish{
+    text-decoration: none;
+}
+
+#collect_info{
+    border: solid 1px black;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+#useful{
+    background-color: blue;
+    color: white;
+    padding: 2em 2em 2em 2em;
+}
+
+#doubletap{
+    padding-top: 1.3em;
+}
+
+#focus h5{
+    font-size: .9em;
+}
+
+.nav-item{
+    padding-left: 2em;
+    padding-right: .5em;
+}
+
+.navbar-brand{
+    padding-left: 1em;
+}
+
+#header{
+    padding-left: 1em;
+    padding-right: 5em;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+#nine_pic{
+    padding-top: 2em;
+}
+
+.text-center{
+    padding-top: 1em;
+}
+
+#explore{
+    padding-bottom: 3em;
+}
+
+#explore h1{
+    font-size: 1.3em;
+}
+
+#explore h2{
+    font-size: .9em;
+}
+
+#useful h1{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-indent: 1.5em;
+    font-size: 2em;
+}
+
+#useful h2{
+    padding-bottom: 2em;
+    padding-left: .5em;
+    font-size: 1.2em;
+}
+
+#second_ipsum{
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+
+#middle{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#infopic{
+    padding: 4em 1em 4em 1em;
+}
+
+#paidpic{
+    padding: 6em 1em 2em 1em;
+}
+
+#paidtext{
+    background-color: blue;
+    color: white;
+    padding: 1em 2em 2em 2em;
+    border-radius: 0px 25px 25px 0px;
+}
+
+#paidtext h1{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+#paidtext h2{
+    padding-bottom: 2em;
+    padding-left: .5em;
+    font-size: 1.2em;
+}
+
+#getpaidsooner{
+    padding-bottom: 4em;
+}
+
+#footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#footerbutton{
+    background-color: #008000;
+}
+
+#squarepics{
+    padding-bottom: 4em;
+}
+
+#squarepics .col-3{
+    justify-content: center;
+
+  .container-focus {
     padding: 100px;
     width: 700px;
 }
 
-footer {
+/* footer {
     background-color: rgb(0, 81, 255);
     text-align: center;
     margin-top: 10%;
@@ -78,4 +220,4 @@ footer {
 
 .fa-chevron-double-right {
     color: white;
-}
+} */
