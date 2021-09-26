@@ -1,7 +1,3 @@
-/*{
-    border: solid 1px red;
-}*/
-
 #focus{
     padding-top: 3em;
     padding-left: 3em;
@@ -27,6 +23,7 @@
     background-color: blue;
     color: white;
     padding: 2em 2em 2em 2em;
+    border-radius: 25px;
 }
 
 #doubletap{
@@ -77,16 +74,21 @@
 }
 
 #useful h1{
-    padding-top: 2em;
-    padding-bottom: 2em;
-    text-indent: 1.5em;
-    font-size: 2em;
+    padding-top: .1em;
+    padding-bottom: .5em;
+    text-indent: .3em;
+    font-size: 1.8vh;
 }
 
 #useful h2{
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
     padding-left: .5em;
-    font-size: 1.2em;
+    font-size: 1.5vh;
+}
+
+#useful h3{
+    font-size: 1.1vh;
+    padding-bottom: .5em;
 }
 
 #second_ipsum{
@@ -100,7 +102,7 @@
 }
 
 #infopic{
-    padding: 4em 1em 4em 1em;
+    padding: 6em 1em 4em 1em;
 }
 
 #credit-card-picture{
@@ -180,68 +182,26 @@ li{
 /* footer {
     background-color: rgb(0, 81, 255);
     text-align: center;
-    margin-top: 10%;
-}
-
-.try-text {
     color: white;
-    font-size: 75px;
-    padding-top: 5%;
-    padding-bottom: 2%;
-}
+}*/
 
-.get-started-text {
+#payments{
+    padding: 22%;
     color: white;
-    font-size: 30px;
-    padding-bottom: 2%;
 }
 
-#get-started {
-    background-color: #7FFF00;
-    border-radius: 6px;
-    padding: 15px;
-    padding-left: 70px;
-    padding-right: 90px;
-    position: relative;
-    right: 15%;
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
+#payment-col{
+    background-color: blue;
+    font-size: 2vw;
 }
 
-.fa-comment-dots {
-    color: rgb(0, 81, 255);
+#retain{
+    color: black;
 }
 
-#chat-with-us {
-    background-color: white;
-    padding: 15px;
-    position: relative;
-    left: 15%;
-    border-radius: 6px;
-    color: rgb(0, 81, 255);
-    font-weight: bold;
-    font-size: 30px;
+#busneeds h1{
+    font-size: 2vh;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 1em;
 }
-
-.options-text {
-    color: white;
-    font-size: 16px;
-    position: relative;
-    left: 2px;
-    padding-bottom: 15%;
-}
-
-.footer-buttons {
-    padding-top: 1%;
-    padding-bottom: 5%;
-}
-
-.fa-comment-dots {
-    padding-left: 5px;
-    padding-right: 10px;
-}
-
-.fa-chevron-double-right {
-    color: white;
-} */
