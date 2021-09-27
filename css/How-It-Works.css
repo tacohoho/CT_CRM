@@ -123,12 +123,71 @@
     padding-bottom: 4em;
 }
 
-#footer{
-    background-color: blue;
-    color: white;
+footer {
+    background-color: rgb(0, 81, 255);
     text-align: center;
+    margin-top: 10%;
 }
 
-#footerbutton{
-    background-color: #008000;
+.try-text {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
+
+.get-started-text {
+    color: white;
+    padding-bottom: 2%;
+}
+
+#get-started {
+    background-color: rgb(127,209,38);
+    border-radius: 6px;
+    padding: 8px;
+    padding-left: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 1%;
+}
+
+.fa-angle-double-right {
+    padding-left: 2%;
+    padding-right: 1%;
+}
+
+.fa-comment-dots {
+    color: rgb(0, 81, 255);
+}
+
+#chat-with-us {
+    background-color: white;
+    padding: 8px;
+    border-radius: 6px;
+    color: rgb(0, 81, 255);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.options-text {
+    color: white;
+    font-size: 16px;
+    position: relative;
+    left: 2px;
+    padding-bottom: 15%;
+}
+
+.footer-buttons {
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.fa-comment-dots {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.fa-chevron-double-right {
+    color: white;
+} 
