@@ -224,6 +224,10 @@ li{
     padding-bottom: 1em;
 }
 
+#second_middle{
+    background-color: yellow;
+
+}
 .box{
     border-radius: 10px;
     padding-bottom: 100%;
@@ -316,3 +320,135 @@ footer {
 .fa-chevron-double-right {
     color: white;
 } 
+#solution{
+    position: absolute;
+    right: 35%;
+    font-weight: 500;
+
+}
+#com{
+    scale: 40%;
+}
+#emailhead{
+    position: absolute;
+    right: 62%;
+    top: 285%;
+
+}
+#email_p{
+    font-weight: 600;
+    width: 30%;
+    position: absolute;
+    right: 50%;
+    top: 293%;
+}
+#email_more{
+    position: absolute;
+    width: 15%;
+    top: 300%;
+    right: 62%;
+    color: black;
+    border-radius: 5px;
+    border-color: black;
+    background-image: url(/images/arrow.png);
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: 99% 50%;
+    background-color: white
+}
+#check_box{
+    scale: 40%;
+    position: absolute;
+    right: 8%;
+    top: 241%;
+    
+}
+#checkbox{
+    position: absolute;
+    right: 19%;
+    top: 285%;
+}
+#taskbox{
+    width: 30%;
+    font-weight: 600;
+    position: absolute;
+    right: 8%;
+    top: 293%;
+}
+#check_more{
+    position: absolute;
+    width: 15%;
+    right: 20%;
+    color: black;
+    border-radius: 5px;
+    border-color: black;
+    background-image: url(/images/arrow.png);
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: 99% 50%;
+    background-color: white;
+}
+#analytics_box{
+    scale: 40%;
+    position: absolute;
+    left: 12%;
+
+}
+#graph{
+    position: absolute;
+    left: 26%;
+    top: 345%;
+}
+#analytics{
+    width: 30%;
+    font-weight: 600;
+    position: absolute;
+    top: 355%;
+    right: 50%;
+}
+#analytic_more{
+    position: absolute;
+    width: 15%;
+    top: 362%;
+    right: 62%;
+    color: black;
+    border-radius: 5px;
+    border-color: black;
+    background-image: url(/images/arrow.png);
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: 99% 50%;
+    background-color: white;
+}
+#calend{
+    scale: 40%;
+    position: absolute;
+    right: 8%;
+
+}
+#project{
+    position: absolute;
+    right: 19%;
+    top: 345%;
+}
+#project_calend{
+    width: 30%;
+    font-weight: 600;
+    position: absolute;
+    top: 355%;
+    left: 62%;
+}
+#project_more{
+    position: absolute;
+    width: 15%;
+    top: 362%;
+    right: 19%;
+    color: black;
+    border-radius: 5px;
+    border-color: black;
+    background-image: url(/images/arrow.png);
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: 99% 50%;
+    background-color: white;
+}
