@@ -109,8 +109,9 @@
     padding: 6em 1em 4em 1em;
 }
 
-#paidpic{
+#credit-card-picture{
     padding: 6em 1em 2em 1em;
+    border: black;
 }
 
 #paidtext{
@@ -122,29 +123,41 @@
 
 #paidtext h1{
     padding-top: 2em;
-    padding-bottom: 2em;
-    text-align: center;
+    padding-bottom: .5em;
+    text-align: left;
     font-size: 2em;
 }
 
 #paidtext h2{
     padding-bottom: 2em;
     padding-left: .5em;
-    font-size: 1.2em;
+    font-size: 15px;
+    text-align: left;
+    width: 70%;
 }
 
 #getpaidsooner{
     padding-bottom: 4em;
+
+}
+li{
+    font-size: 10px;
+    margin: 10px;
+    width: 53%;
 }
 
-#footer{
-    background-color: blue;
+#learn{
     color: white;
-    text-align: center;
-}
-
-#footerbutton{
-    background-color: #008000;
+    background-color: blue;
+    border-radius: 5px;
+    border-color: white;
+    width: 200px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    background-image: url(/images/arrow-blue.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 99% 50%;
 }
 
 #squarepics{
@@ -153,6 +166,12 @@
 
 #squarepics .col-3{
     text-align: center;
+    justify-content: center;
+}
+
+.container-focus{
+    padding: 100px;
+    width: 700px;
 }
 
 #payments{
@@ -226,3 +245,74 @@
 #squarepics col-3{
     border: solid 1px black;
 }
+
+footer {
+    background-color: rgb(0, 81, 255);
+    text-align: center;
+    margin-top: 10%;
+}
+
+.try-text {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.get-started-text {
+    color: white;
+    padding-bottom: 2%;
+}
+
+#get-started {
+    background-color: rgb(127,209,38);
+    border-radius: 6px;
+    padding: 8px;
+    padding-left: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 1%;
+}
+
+.fa-angle-double-right {
+    padding-left: 2%;
+    padding-right: 1%;
+}
+
+.fa-comment-dots {
+    color: rgb(0, 81, 255);
+}
+
+#chat-with-us {
+    background-color: white;
+    padding: 8px;
+    border-radius: 6px;
+    color: rgb(0, 81, 255);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.options-text {
+    color: white;
+    font-size: 16px;
+    position: relative;
+    left: 2px;
+    padding-bottom: 15%;
+}
+
+.footer-buttons {
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.fa-comment-dots {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.fa-chevron-double-right {
+    color: white;
+} 
