@@ -1,3 +1,7 @@
+/*{
+    border: solid 1px red;
+}*/
+
 #focus{
     padding-top: 3em;
     padding-left: 3em;
@@ -157,10 +161,11 @@ li{
 }
 
 #squarepics{
-    padding-bottom: 4em;
+    padding: 1em 4em 4em 4em;
 }
 
 #squarepics .col-3{
+    text-align: center;
     justify-content: center;
 }
 
@@ -174,13 +179,42 @@ li{
     color: white;
 }
 
+#retain{
+    padding: 22%;
+}
+
+#reporting{
+    padding: 22%;
+}
+
+#convert{
+    padding: 22% 22% 34% 22%;
+}
+
 #payment-col{
     background-color: blue;
     font-size: 2vw;
+    color: white;
+    border: solid 1px black;
+    border-radius: 15px;
 }
 
-#retain{
-    color: black;
+#retain-col{
+    border: solid 1px black;
+    border-radius: 15px;
+    font-size: 2vw;
+}
+
+#reporting-col{
+    border: solid 1px black;
+    border-radius: 15px;
+    font-size: 2vw
+}
+
+#convert-col{
+    border: solid 1px black;
+    border-radius: 15px;
+    font-size: 2vw
 }
 
 #busneeds h1{
@@ -188,6 +222,28 @@ li{
     text-align: center;
     padding-top: 4em;
     padding-bottom: 1em;
+}
+
+.box{
+    border-radius: 10px;
+    padding-bottom: 100%;
+}
+
+.box h1{
+    font-size: 1em;
+    text-align: center;
+}
+
+.col-3{
+    margin-top: 30px;
+}
+
+#retain{
+    color: grey;
+}
+
+#squarepics col-3{
+    border: solid 1px black;
 }
 
 footer {
